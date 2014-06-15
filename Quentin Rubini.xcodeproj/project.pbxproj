@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA2834D818EDACE300F2FE13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2834D718EDACE300F2FE13 /* Foundation.framework */; };
+		BA2834DA18EDACE300F2FE13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2834D918EDACE300F2FE13 /* CoreGraphics.framework */; };
+		BA2834DC18EDACE300F2FE13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2834DB18EDACE300F2FE13 /* UIKit.framework */; };
+		BA2834E218EDACE300F2FE13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA2834E018EDACE300F2FE13 /* InfoPlist.strings */; };
+		BA2834E418EDACE300F2FE13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2834E318EDACE300F2FE13 /* main.m */; };
+		BA2834E818EDACE300F2FE13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2834E718EDACE300F2FE13 /* AppDelegate.m */; };
+		BA2834EB18EDACE300F2FE13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2834E918EDACE300F2FE13 /* Main.storyboard */; };
+		BA2834F018EDACE300F2FE13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2834EF18EDACE300F2FE13 /* Images.xcassets */; };
+		BA2834F718EDACE400F2FE13 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2834F618EDACE400F2FE13 /* XCTest.framework */; };
+		BA2834F818EDACE400F2FE13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2834D718EDACE300F2FE13 /* Foundation.framework */; };
+		BA2834F918EDACE400F2FE13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2834DB18EDACE300F2FE13 /* UIKit.framework */; };
+		BA28350118EDACE400F2FE13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA2834FF18EDACE400F2FE13 /* InfoPlist.strings */; };
+		BA28350318EDACE400F2FE13 /* WWDC2014Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA28350218EDACE400F2FE13 /* WWDC2014Tests.m */; };
+		BA930CC718F3DC2700B3A656 /* SliderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA930CC618F3DC2700B3A656 /* SliderTableViewCell.m */; };
+		BA930CCA18F3F70D00B3A656 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = BA930CC918F3F70D00B3A656 /* Project.m */; };
+		BA930CCD18F3F7A700B3A656 /* MyProjects.m in Sources */ = {isa = PBXBuildFile; fileRef = BA930CCC18F3F7A700B3A656 /* MyProjects.m */; };
+		BA9A85A018F2C714003449C7 /* CursusTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9A859F18F2C714003449C7 /* CursusTableViewCell.m */; };
+		BA9A85A318F2D40F003449C7 /* WorksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9A85A218F2D40F003449C7 /* WorksTableViewController.m */; };
+		BA9A85A618F2D441003449C7 /* WorkTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9A85A518F2D441003449C7 /* WorkTableViewCell.m */; };
+		BA9A85AA18F2EEE7003449C7 /* WorkDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9A85A918F2EEE7003449C7 /* WorkDetailTableViewController.m */; };
+		BAB8213B18F3197900729804 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB8213A18F3197900729804 /* MessageUI.framework */; };
+		BAC268B418F1B8FA005E20AB /* FAKFontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC268AA18F1B8FA005E20AB /* FAKFontAwesome.m */; };
+		BAC268B518F1B8FA005E20AB /* FAKFoundationIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC268AC18F1B8FA005E20AB /* FAKFoundationIcons.m */; };
+		BAC268B618F1B8FA005E20AB /* FAKIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC268AE18F1B8FA005E20AB /* FAKIcon.m */; };
+		BAC268B718F1B8FA005E20AB /* FAKIonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC268B018F1B8FA005E20AB /* FAKIonIcons.m */; };
+		BAC268B818F1B8FA005E20AB /* FAKZocial.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC268B218F1B8FA005E20AB /* FAKZocial.m */; };
+		BAC268BE18F1B914005E20AB /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = BAC268BA18F1B913005E20AB /* FontAwesome.otf */; };
+		BAC268BF18F1B914005E20AB /* foundation-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAC268BB18F1B913005E20AB /* foundation-icons.ttf */; };
+		BAC268C018F1B914005E20AB /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAC268BC18F1B913005E20AB /* ionicons.ttf */; };
+		BAC268C118F1B914005E20AB /* zocial-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAC268BD18F1B914005E20AB /* zocial-regular-webfont.ttf */; };
+		BAC268C418F1BA9C005E20AB /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC268C318F1BA9C005E20AB /* HomeViewController.m */; };
+		BAC268C618F1C0B9005E20AB /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC268C518F1C0B9005E20AB /* CoreMotion.framework */; };
+		BACB311718F1F0D500C1BACF /* TransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BACB311618F1F0D500C1BACF /* TransitionManager.m */; };
+		BACB935918F2971800A79922 /* ProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BACB935818F2971800A79922 /* ProfileTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA2834FA18EDACE400F2FE13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA2834CC18EDACE300F2FE13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA2834D318EDACE300F2FE13;
+			remoteInfo = WWDC2014;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA2834D418EDACE300F2FE13 /* Quentin Rubini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quentin Rubini.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2834D718EDACE300F2FE13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA2834D918EDACE300F2FE13 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BA2834DB18EDACE300F2FE13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BA2834DF18EDACE300F2FE13 /* Quentin Rubini-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quentin Rubini-Info.plist"; sourceTree = "<group>"; };
+		BA2834E118EDACE300F2FE13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA2834E318EDACE300F2FE13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA2834E518EDACE300F2FE13 /* Quentin Rubini-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quentin Rubini-Prefix.pch"; sourceTree = "<group>"; };
+		BA2834E618EDACE300F2FE13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA2834E718EDACE300F2FE13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA2834EA18EDACE300F2FE13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA2834EF18EDACE300F2FE13 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BA2834F518EDACE400F2FE13 /* Quentin RubiniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quentin RubiniTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2834F618EDACE400F2FE13 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BA2834FE18EDACE400F2FE13 /* Quentin RubiniTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quentin RubiniTests-Info.plist"; sourceTree = "<group>"; };
+		BA28350018EDACE400F2FE13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA28350218EDACE400F2FE13 /* WWDC2014Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWDC2014Tests.m; sourceTree = "<group>"; };
+		BA930CC518F3DC2700B3A656 /* SliderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SliderTableViewCell.h; path = View/SliderTableViewCell.h; sourceTree = "<group>"; };
+		BA930CC618F3DC2700B3A656 /* SliderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SliderTableViewCell.m; path = View/SliderTableViewCell.m; sourceTree = "<group>"; };
+		BA930CC818F3F70D00B3A656 /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Project.h; path = Model/Project.h; sourceTree = "<group>"; };
+		BA930CC918F3F70D00B3A656 /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Project.m; path = Model/Project.m; sourceTree = "<group>"; };
+		BA930CCB18F3F7A700B3A656 /* MyProjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyProjects.h; path = Model/MyProjects.h; sourceTree = "<group>"; };
+		BA930CCC18F3F7A700B3A656 /* MyProjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyProjects.m; path = Model/MyProjects.m; sourceTree = "<group>"; };
+		BA9A859E18F2C714003449C7 /* CursusTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CursusTableViewCell.h; path = View/CursusTableViewCell.h; sourceTree = "<group>"; };
+		BA9A859F18F2C714003449C7 /* CursusTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CursusTableViewCell.m; path = View/CursusTableViewCell.m; sourceTree = "<group>"; };
+		BA9A85A118F2D40F003449C7 /* WorksTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WorksTableViewController.h; path = Controller/WorksTableViewController.h; sourceTree = "<group>"; };
+		BA9A85A218F2D40F003449C7 /* WorksTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WorksTableViewController.m; path = Controller/WorksTableViewController.m; sourceTree = "<group>"; };
+		BA9A85A418F2D441003449C7 /* WorkTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WorkTableViewCell.h; path = View/WorkTableViewCell.h; sourceTree = "<group>"; };
+		BA9A85A518F2D441003449C7 /* WorkTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WorkTableViewCell.m; path = View/WorkTableViewCell.m; sourceTree = "<group>"; };
+		BA9A85A818F2EEE7003449C7 /* WorkDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WorkDetailTableViewController.h; path = Controller/WorkDetailTableViewController.h; sourceTree = "<group>"; };
+		BA9A85A918F2EEE7003449C7 /* WorkDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WorkDetailTableViewController.m; path = Controller/WorkDetailTableViewController.m; sourceTree = "<group>"; };
+		BAB8213A18F3197900729804 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		BAC268A918F1B8FA005E20AB /* FAKFontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAKFontAwesome.h; sourceTree = "<group>"; };
+		BAC268AA18F1B8FA005E20AB /* FAKFontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAKFontAwesome.m; sourceTree = "<group>"; };
+		BAC268AB18F1B8FA005E20AB /* FAKFoundationIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAKFoundationIcons.h; sourceTree = "<group>"; };
+		BAC268AC18F1B8FA005E20AB /* FAKFoundationIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAKFoundationIcons.m; sourceTree = "<group>"; };
+		BAC268AD18F1B8FA005E20AB /* FAKIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAKIcon.h; sourceTree = "<group>"; };
+		BAC268AE18F1B8FA005E20AB /* FAKIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAKIcon.m; sourceTree = "<group>"; };
+		BAC268AF18F1B8FA005E20AB /* FAKIonIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAKIonIcons.h; sourceTree = "<group>"; };
+		BAC268B018F1B8FA005E20AB /* FAKIonIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAKIonIcons.m; sourceTree = "<group>"; };
+		BAC268B118F1B8FA005E20AB /* FAKZocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAKZocial.h; sourceTree = "<group>"; };
+		BAC268B218F1B8FA005E20AB /* FAKZocial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAKZocial.m; sourceTree = "<group>"; };
+		BAC268B318F1B8FA005E20AB /* FontAwesomeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontAwesomeKit.h; sourceTree = "<group>"; };
+		BAC268BA18F1B913005E20AB /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		BAC268BB18F1B913005E20AB /* foundation-icons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "foundation-icons.ttf"; sourceTree = "<group>"; };
+		BAC268BC18F1B913005E20AB /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
+		BAC268BD18F1B914005E20AB /* zocial-regular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "zocial-regular-webfont.ttf"; sourceTree = "<group>"; };
+		BAC268C218F1BA9C005E20AB /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Controller/HomeViewController.h; sourceTree = "<group>"; };
+		BAC268C318F1BA9C005E20AB /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Controller/HomeViewController.m; sourceTree = "<group>"; };
+		BAC268C518F1C0B9005E20AB /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		BACB311518F1F0D500C1BACF /* TransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransitionManager.h; path = Controller/TransitionManager.h; sourceTree = "<group>"; };
+		BACB311618F1F0D500C1BACF /* TransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransitionManager.m; path = Controller/TransitionManager.m; sourceTree = "<group>"; };
+		BACB935718F2971800A79922 /* ProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileTableViewController.h; path = Controller/ProfileTableViewController.h; sourceTree = "<group>"; };
+		BACB935818F2971800A79922 /* ProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileTableViewController.m; path = Controller/ProfileTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA2834D118EDACE300F2FE13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB8213B18F3197900729804 /* MessageUI.framework in Frameworks */,
+				BAC268C618F1C0B9005E20AB /* CoreMotion.framework in Frameworks */,
+				BA2834DA18EDACE300F2FE13 /* CoreGraphics.framework in Frameworks */,
+				BA2834DC18EDACE300F2FE13 /* UIKit.framework in Frameworks */,
+				BA2834D818EDACE300F2FE13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2834F218EDACE400F2FE13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2834F718EDACE400F2FE13 /* XCTest.framework in Frameworks */,
+				BA2834F918EDACE400F2FE13 /* UIKit.framework in Frameworks */,
+				BA2834F818EDACE400F2FE13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA2834CB18EDACE300F2FE13 = {
+			isa = PBXGroup;
+			children = (
+				BA2834DD18EDACE300F2FE13 /* WWDC2014 */,
+				BA2834FC18EDACE400F2FE13 /* WWDC2014Tests */,
+				BA2834D618EDACE300F2FE13 /* Frameworks */,
+				BA2834D518EDACE300F2FE13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA2834D518EDACE300F2FE13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA2834D418EDACE300F2FE13 /* Quentin Rubini.app */,
+				BA2834F518EDACE400F2FE13 /* Quentin RubiniTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA2834D618EDACE300F2FE13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAB8213A18F3197900729804 /* MessageUI.framework */,
+				BAC268C518F1C0B9005E20AB /* CoreMotion.framework */,
+				BA2834D718EDACE300F2FE13 /* Foundation.framework */,
+				BA2834D918EDACE300F2FE13 /* CoreGraphics.framework */,
+				BA2834DB18EDACE300F2FE13 /* UIKit.framework */,
+				BA2834F618EDACE400F2FE13 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA2834DD18EDACE300F2FE13 /* WWDC2014 */ = {
+			isa = PBXGroup;
+			children = (
+				BA2834E618EDACE300F2FE13 /* AppDelegate.h */,
+				BA2834E718EDACE300F2FE13 /* AppDelegate.m */,
+				BAC268A618F1B881005E20AB /* Controller */,
+				BAC268A518F1B87B005E20AB /* Model */,
+				BAC268A418F1B876005E20AB /* View */,
+				BA2834EF18EDACE300F2FE13 /* Images.xcassets */,
+				BA2834DE18EDACE300F2FE13 /* Supporting Files */,
+			);
+			path = WWDC2014;
+			sourceTree = "<group>";
+		};
+		BA2834DE18EDACE300F2FE13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA2834DF18EDACE300F2FE13 /* Quentin Rubini-Info.plist */,
+				BA2834E018EDACE300F2FE13 /* InfoPlist.strings */,
+				BA2834E318EDACE300F2FE13 /* main.m */,
+				BA2834E518EDACE300F2FE13 /* Quentin Rubini-Prefix.pch */,
+				BAC268B918F1B907005E20AB /* Fonts */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA2834FC18EDACE400F2FE13 /* WWDC2014Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BA28350218EDACE400F2FE13 /* WWDC2014Tests.m */,
+				BA2834FD18EDACE400F2FE13 /* Supporting Files */,
+			);
+			path = WWDC2014Tests;
+			sourceTree = "<group>";
+		};
+		BA2834FD18EDACE400F2FE13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA2834FE18EDACE400F2FE13 /* Quentin RubiniTests-Info.plist */,
+				BA2834FF18EDACE400F2FE13 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA9A85A718F2EE80003449C7 /* TransitionController */ = {
+			isa = PBXGroup;
+			children = (
+				BACB311518F1F0D500C1BACF /* TransitionManager.h */,
+				BACB311618F1F0D500C1BACF /* TransitionManager.m */,
+			);
+			name = TransitionController;
+			sourceTree = "<group>";
+		};
+		BAC268A418F1B876005E20AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA2834E918EDACE300F2FE13 /* Main.storyboard */,
+				BA9A859E18F2C714003449C7 /* CursusTableViewCell.h */,
+				BA9A859F18F2C714003449C7 /* CursusTableViewCell.m */,
+				BA9A85A418F2D441003449C7 /* WorkTableViewCell.h */,
+				BA9A85A518F2D441003449C7 /* WorkTableViewCell.m */,
+				BA930CC518F3DC2700B3A656 /* SliderTableViewCell.h */,
+				BA930CC618F3DC2700B3A656 /* SliderTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BAC268A518F1B87B005E20AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA930CC818F3F70D00B3A656 /* Project.h */,
+				BA930CC918F3F70D00B3A656 /* Project.m */,
+				BA930CCB18F3F7A700B3A656 /* MyProjects.h */,
+				BA930CCC18F3F7A700B3A656 /* MyProjects.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BAC268A618F1B881005E20AB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BAC268A718F1B891005E20AB /* LIB */,
+				BA9A85A718F2EE80003449C7 /* TransitionController */,
+				BAC268C218F1BA9C005E20AB /* HomeViewController.h */,
+				BAC268C318F1BA9C005E20AB /* HomeViewController.m */,
+				BACB935718F2971800A79922 /* ProfileTableViewController.h */,
+				BACB935818F2971800A79922 /* ProfileTableViewController.m */,
+				BA9A85A118F2D40F003449C7 /* WorksTableViewController.h */,
+				BA9A85A218F2D40F003449C7 /* WorksTableViewController.m */,
+				BA9A85A818F2EEE7003449C7 /* WorkDetailTableViewController.h */,
+				BA9A85A918F2EEE7003449C7 /* WorkDetailTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BAC268A718F1B891005E20AB /* LIB */ = {
+			isa = PBXGroup;
+			children = (
+				BAC268A818F1B8E5005E20AB /* FontAwesome */,
+			);
+			name = LIB;
+			sourceTree = "<group>";
+		};
+		BAC268A818F1B8E5005E20AB /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				BAC268A918F1B8FA005E20AB /* FAKFontAwesome.h */,
+				BAC268AA18F1B8FA005E20AB /* FAKFontAwesome.m */,
+				BAC268AB18F1B8FA005E20AB /* FAKFoundationIcons.h */,
+				BAC268AC18F1B8FA005E20AB /* FAKFoundationIcons.m */,
+				BAC268AD18F1B8FA005E20AB /* FAKIcon.h */,
+				BAC268AE18F1B8FA005E20AB /* FAKIcon.m */,
+				BAC268AF18F1B8FA005E20AB /* FAKIonIcons.h */,
+				BAC268B018F1B8FA005E20AB /* FAKIonIcons.m */,
+				BAC268B118F1B8FA005E20AB /* FAKZocial.h */,
+				BAC268B218F1B8FA005E20AB /* FAKZocial.m */,
+				BAC268B318F1B8FA005E20AB /* FontAwesomeKit.h */,
+			);
+			name = FontAwesome;
+			sourceTree = "<group>";
+		};
+		BAC268B918F1B907005E20AB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BAC268BA18F1B913005E20AB /* FontAwesome.otf */,
+				BAC268BB18F1B913005E20AB /* foundation-icons.ttf */,
+				BAC268BC18F1B913005E20AB /* ionicons.ttf */,
+				BAC268BD18F1B914005E20AB /* zocial-regular-webfont.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA2834D318EDACE300F2FE13 /* Quentin Rubini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA28350618EDACE400F2FE13 /* Build configuration list for PBXNativeTarget "Quentin Rubini" */;
+			buildPhases = (
+				BA2834D018EDACE300F2FE13 /* Sources */,
+				BA2834D118EDACE300F2FE13 /* Frameworks */,
+				BA2834D218EDACE300F2FE13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quentin Rubini";
+			productName = WWDC2014;
+			productReference = BA2834D418EDACE300F2FE13 /* Quentin Rubini.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA2834F418EDACE400F2FE13 /* Quentin RubiniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA28350918EDACE400F2FE13 /* Build configuration list for PBXNativeTarget "Quentin RubiniTests" */;
+			buildPhases = (
+				BA2834F118EDACE400F2FE13 /* Sources */,
+				BA2834F218EDACE400F2FE13 /* Frameworks */,
+				BA2834F318EDACE400F2FE13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA2834FB18EDACE400F2FE13 /* PBXTargetDependency */,
+			);
+			name = "Quentin RubiniTests";
+			productName = WWDC2014Tests;
+			productReference = BA2834F518EDACE400F2FE13 /* Quentin RubiniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA2834CC18EDACE300F2FE13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Quentin RUBINI";
+				TargetAttributes = {
+					BA2834F418EDACE400F2FE13 = {
+						TestTargetID = BA2834D318EDACE300F2FE13;
+					};
+				};
+			};
+			buildConfigurationList = BA2834CF18EDACE300F2FE13 /* Build configuration list for PBXProject "Quentin Rubini" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA2834CB18EDACE300F2FE13;
+			productRefGroup = BA2834D518EDACE300F2FE13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA2834D318EDACE300F2FE13 /* Quentin Rubini */,
+				BA2834F418EDACE400F2FE13 /* Quentin RubiniTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA2834D218EDACE300F2FE13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC268C018F1B914005E20AB /* ionicons.ttf in Resources */,
+				BA2834F018EDACE300F2FE13 /* Images.xcassets in Resources */,
+				BA2834E218EDACE300F2FE13 /* InfoPlist.strings in Resources */,
+				BAC268C118F1B914005E20AB /* zocial-regular-webfont.ttf in Resources */,
+				BAC268BE18F1B914005E20AB /* FontAwesome.otf in Resources */,
+				BA2834EB18EDACE300F2FE13 /* Main.storyboard in Resources */,
+				BAC268BF18F1B914005E20AB /* foundation-icons.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2834F318EDACE400F2FE13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA28350118EDACE400F2FE13 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA2834D018EDACE300F2FE13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC268B518F1B8FA005E20AB /* FAKFoundationIcons.m in Sources */,
+				BA9A85A318F2D40F003449C7 /* WorksTableViewController.m in Sources */,
+				BACB311718F1F0D500C1BACF /* TransitionManager.m in Sources */,
+				BAC268B818F1B8FA005E20AB /* FAKZocial.m in Sources */,
+				BA9A85AA18F2EEE7003449C7 /* WorkDetailTableViewController.m in Sources */,
+				BAC268B418F1B8FA005E20AB /* FAKFontAwesome.m in Sources */,
+				BACB935918F2971800A79922 /* ProfileTableViewController.m in Sources */,
+				BA2834E818EDACE300F2FE13 /* AppDelegate.m in Sources */,
+				BA930CCD18F3F7A700B3A656 /* MyProjects.m in Sources */,
+				BAC268C418F1BA9C005E20AB /* HomeViewController.m in Sources */,
+				BA9A85A618F2D441003449C7 /* WorkTableViewCell.m in Sources */,
+				BA9A85A018F2C714003449C7 /* CursusTableViewCell.m in Sources */,
+				BA930CCA18F3F70D00B3A656 /* Project.m in Sources */,
+				BA2834E418EDACE300F2FE13 /* main.m in Sources */,
+				BAC268B618F1B8FA005E20AB /* FAKIcon.m in Sources */,
+				BAC268B718F1B8FA005E20AB /* FAKIonIcons.m in Sources */,
+				BA930CC718F3DC2700B3A656 /* SliderTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2834F118EDACE400F2FE13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA28350318EDACE400F2FE13 /* WWDC2014Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA2834FB18EDACE400F2FE13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA2834D318EDACE300F2FE13 /* Quentin Rubini */;
+			targetProxy = BA2834FA18EDACE400F2FE13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA2834E018EDACE300F2FE13 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA2834E118EDACE300F2FE13 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BA2834E918EDACE300F2FE13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA2834EA18EDACE300F2FE13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA2834FF18EDACE400F2FE13 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA28350018EDACE400F2FE13 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA28350418EDACE400F2FE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA28350518EDACE400F2FE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA28350718EDACE400F2FE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WWDC2014/Quentin Rubini-Prefix.pch";
+				INFOPLIST_FILE = "WWDC2014/Quentin Rubini-Info.plist";
+				PRODUCT_NAME = "Quentin Rubini";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BA28350818EDACE400F2FE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WWDC2014/Quentin Rubini-Prefix.pch";
+				INFOPLIST_FILE = "WWDC2014/Quentin Rubini-Info.plist";
+				PRODUCT_NAME = "Quentin Rubini";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BA28350A18EDACE400F2FE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WWDC2014.app/WWDC2014";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WWDC2014/WWDC2014-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WWDC2014Tests/Quentin RubiniTests-Info.plist";
+				PRODUCT_NAME = "Quentin RubiniTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BA28350B18EDACE400F2FE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WWDC2014.app/WWDC2014";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WWDC2014/WWDC2014-Prefix.pch";
+				INFOPLIST_FILE = "WWDC2014Tests/Quentin RubiniTests-Info.plist";
+				PRODUCT_NAME = "Quentin RubiniTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA2834CF18EDACE300F2FE13 /* Build configuration list for PBXProject "Quentin Rubini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA28350418EDACE400F2FE13 /* Debug */,
+				BA28350518EDACE400F2FE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA28350618EDACE400F2FE13 /* Build configuration list for PBXNativeTarget "Quentin Rubini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA28350718EDACE400F2FE13 /* Debug */,
+				BA28350818EDACE400F2FE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA28350918EDACE400F2FE13 /* Build configuration list for PBXNativeTarget "Quentin RubiniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA28350A18EDACE400F2FE13 /* Debug */,
+				BA28350B18EDACE400F2FE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA2834CC18EDACE300F2FE13 /* Project object */;
+}
